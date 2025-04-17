@@ -1,10 +1,10 @@
 import css from "./FriendListItem.module.css";
 import clsx from "clsx";
 
-const FriendListItem = ({ image, name, status }) => {
+export default function FriendListItem({ image, name, status }) {
   return (
     <div className={css.content}>
-      <img src={image} alt="Avatar" width="48" className={css.img} />
+      <img src={image} alt={name} width="48" className={css.img} />
       <p className={css.name}>{name}</p>
       <p
         className={clsx({
@@ -16,6 +16,4 @@ const FriendListItem = ({ image, name, status }) => {
       </p>
     </div>
   );
-};
-
-export default FriendListItem;
+}

@@ -1,0 +1,27 @@
+.table {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+.thead {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(24, 23, 23);
+}
+.tbody {
+  color: black;
+  text-align: center;
+  background-color: #adabab;
+}
+.tr:nth-child(even) {
+  background-color: #ffffff;
+}
+.th,
+.td {
+  border: 1px solid black;
+  width: calc(100% / 3);
+  padding: 10px 0;
+  font-weight: inherit;
+}
