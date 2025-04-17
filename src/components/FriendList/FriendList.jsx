@@ -3,9 +3,9 @@ import css from "./FriendList.module.css";
 
 export default function FriendList({ friends }) {
   return (
-    <ul>
+    <ul className={css.list}>
       {friends.map((friend) => (
-        <li key={friend.id}>
+        <li className={css.item} key={friend.id}>
           <FriendListItem
             image={friend.avatar}
             name={friend.name}
