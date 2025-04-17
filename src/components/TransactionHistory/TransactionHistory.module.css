@@ -13,10 +13,10 @@
 .tbody {
   color: black;
   text-align: center;
-  background-color: #adabab;
+  background-color: white;
 }
 .tr:nth-child(even) {
-  background-color: #ffffff;
+  background-color: #adabab;
 }
 .th,
 .td {
